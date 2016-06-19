@@ -30,7 +30,7 @@ page:
 <div ng-app="">
  
 <p> Your answer</p>
-h
+
 <!-- Display answer preview here...!-->
 <p ng-bind="name" id="youranswer"></p>
 
