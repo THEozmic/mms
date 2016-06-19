@@ -25,7 +25,8 @@ page:
 ?>
     
 </div>
-<div id="warning" style="display: none; background-color: red">You've already answered<span style="background-color:grey;" id="warningclose">x</span></div>
+
+<div id="warning" style="display: none; background-color: red">You've already answered<span style="background-color:grey;" id="warningclose">x</span>We do not support answer editing at this time.</div>
 <!--angular js for answer preview (to be further developed...) !-->
 <div ng-app="">
  
@@ -65,11 +66,11 @@ page:
     }
     getanswers();
     var do_newanswer =  function() {
-        if (getCookie("questionID") == <?php echo '"'.$questionID.'"'?>) {
-            /*Tell user that they've answered this question before*/
+        /*if (getCookie("questionID") == <?php echo '"'.$questionID.'"'?>) {
+            /*Tell user that they've answered this question before
             $("#warning").show();
 
-        } else {
+        } else {*/
        
 
             /*get the value of the textarea*/
@@ -147,7 +148,7 @@ page:
                 
                 } else {
                     $("#youranswer").text("invalid answer.");
-            }
+           /* }*/
         }
 
         /*don't forget to remove the warning if it ever gets shown*/
