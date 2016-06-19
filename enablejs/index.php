@@ -1,0 +1,1 @@
+Oops! Looks like you've disabled Javascript. You need that to use MindMast.

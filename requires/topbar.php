@@ -1,0 +1,1 @@
+echo <a href="http://localhost/mms/">Logout</a>
