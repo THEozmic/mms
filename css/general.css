@@ -1,0 +1,183 @@
+@font-face {
+    font-family: round;
+    src: url("http://mastermind.niitportharcourt.com/font/Round.otf");
+}
+#coverPhoto {
+margin-top:-3px;
+background: url("http://mastermind.niitportharcourt.com/img/coverphotos/1.jpg");height: 300px;background-size: cover;background-repeat: no-repeat;background-position: center left;position: absolute;top: 188px;width: 100%;border-bottom: 1px solid #FF9800;}
+#profileImage {background-color: #fff;border: 4px solid white;max-width: 380px;max-height: 300px;position: absolute;top: 330px;left: 5%;border-radius: 8px;margin: 10px;min-height: 188px;z-index: 1;}
+#profileImage > img {
+    width: 186px;
+    border-radius: 8px;
+}
+#profileContent {display: inline-block;position: relative;top: 280px;left: 30%;width: 60%;z-index: 1;}
+#userStats {background-color: #fff;width: 100%;height: 120px;display: inline-block;}
+.caption {
+color: #797979;    
+padding: 2px;
+font-size: 18px;
+font-family: sans-serif;
+background-color: #f7f7f7;
+padding-left: 10px;
+border-radius: 2px 2px 0px 0px;
+border: 1px solid #cccbcb;
+margin: 4px;
+}
+.bodyText {
+padding: 8px;
+border: 2px solid #d2d2d2;
+margin: 4px;
+border-bottom-right-radius: 3px;
+border-bottom-left-radius: 3px;
+font-weight: bold;
+color: rgba(49, 48, 46, 0.72);
+background-color: #fff;
+word-wrap: break-word;
+}
+.bodyText div {
+    padding: 6px;
+    border-bottom: 1px solid #eaeaea;
+}
+.editable {
+    cursor: pointer;
+}
+#infoSnippet {position: absolute;top: 530px;left: 5%;color: #FF9800;word-wrap: break-word;width: 18%;}
+#userCourse {font-size: 13px;}
+#userName {font-size: 18px;font-weight: bolder;}
+#userStats, #userAbout, #userInterest {
+    margin-top: 30px;
+    border-radius: 2px 2px 2px 2px;
+    margin-bottom: 10px;
+}
+.aboutInput {
+    border: 0;
+    padding: 5px;
+    overflow: hidden;
+    width: 65%;
+}
+.tag {
+padding: 5px;
+border-radius: 3px;    
+}
+i {
+    font-size: 12px;
+}
+label.myLabel input[type="file"] {
+    position: relative;
+    z-index: -1;
+    left: 38px;
+    top: 33px;
+    height: 33px;
+}
+.parts {
+    padding: 20px;
+    border-bottom: 1px solid #EAEAEA;
+}
+.big {
+    font-size: 25px;
+}
+.vote {
+display: none;
+}
+#rank {
+    font-family: serif;
+    color:#FF9800;
+    font-weight: bold
+}
+#content, #login-content {
+    visibility: visible;
+}
+.topbar, .topbar a{
+    background-color: #202021;
+    height: 40px;
+    padding: 10px;
+    line-height: 2;
+    width: 100%;
+    color: #fff;
+    font-family: inherit;
+}
+.toplinks, .toplogo {
+    position: absolute;
+    padding-right: 10px;
+    top: 0;
+}
+.toplogo {
+    left: 0;
+}
+.toplinks {
+    right: 0;
+}
+form {padding: 10px;}
+.col-xs-12 {
+    padding-right: 46px!important;
+    padding-left: 46px!important;
+}
+
+#actualQuestion {
+    display: inline-block;
+    padding: 20px;
+}
+.block {
+    padding: 20px;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    background-color: #313131;
+}
+.ma-menu > a {
+    padding: 8px 4px 8px 4px;
+    font-size: 13px;
+    text-decoration: none;
+}
+.page {
+    color: #FF9800;
+    letter-spacing: 1px;
+    background-color: #202021;
+}
+.lecture {
+    border-bottom: 1px solid #E5E5E5;
+    margin: 10px;
+    min-height: 50px;
+    padding: 5px;
+}
+#question-content {
+    font-size: 18px;
+    width: 100%;
+    word-wrap: break-word;
+    padding: 10px;
+    padding-bottom: 32px;
+}
+#studentMenu {list-style: none;background-color: #313131;/* width: 200px; */height: 100%; margin-bottom: 0;}
+#studentMenu li {
+padding: 10px;
+background-color: #202021;
+margin-bottom: 2px;
+}
+#studentMenu li:hover {    
+background-color: black;
+}
+ul a {
+   color: #fff;
+}
+ul a:hover {
+    text-decoration: none;
+}
+ul a:focus {
+color: currentColor;
+text-decoration: none;
+}
+.active, .active li {color: #777777;text-decoration: none;background-color: black!important;}
+ul a:active {
+   color: currentColor;
+   text-decoration: none; 
+}
+#contentAssign, #contentFacebook, #contentAnnounce, #contentProject {
+    padding: 15px;
+    background-color: #fff;
+    word-wrap: break-word;
+    display: none;
+}
+.btn {
+    background-color: #000;
+    color: #fff;
+}
