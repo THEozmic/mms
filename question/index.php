@@ -66,7 +66,7 @@ page:
     }
     getanswers();
     var do_newanswer =  function() {
-        /*if (getCookie("questionID") == <?php echo '"'.$questionID.'"'?>) {
+        /*if (getCookie("questionID") == <?php //echo '"'.$questionID.'"'?>) {
             /*Tell user that they've answered this question before
             $("#warning").show();
 
