@@ -121,7 +121,7 @@
     
     }
 
-    /* THE PURIFIER */
+    /* THE PURIFIER = lowercaser */
     function purify(input) {
         input = input.toLowerCase().trim();
         return input;
