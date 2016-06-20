@@ -30,5 +30,6 @@ require("../requires/querydb.php");
     }
 
 ?>
-
+<a href="http://localhost/mms/ask/"> Ask a question</a>
+<a href="http://localhost/mms/assignments/"> Assignments</a>
 </body>

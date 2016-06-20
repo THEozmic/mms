@@ -29,7 +29,7 @@
 
         /*if (getCookie("questionID") == <?php //echo '"'.$questionID.'"'?>) {
             /*Tell user that they've answered this question before
-            $("#warning").show();
+            
 
         } else {*/
        
@@ -118,10 +118,7 @@
         }
 
         /*don't forget to remove the warning if it ever gets shown*/
-        $("#warningclose").click(function(){
-            $("#warning").hide();
-
-        });
+    
     }
 
     /* THE PURIFIER */

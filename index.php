@@ -30,10 +30,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    } else {
      $randnum = test_input($_POST["randnum"]);
    // check if name only contains letters and whitespace
-     if (!preg_match("/^[0-9]*$/",$randnum)) {
-       $randnumErr = "Only numbers allowed."; 
-     }
   }
+
+  $details = query("SELECT", "*", "users", "randnum = '$randnum' AND name = '$fullname'", "raw", null);
+if($details == "") {
+  $loginErr = "Sorry, your details do not match our records.";
+  echo $loginErr;
+} else {
+ $_SESSION["details"] = $details;
+ header("Location: http://localhost/mms/questions");
+
+}
 }
 ?>
 
@@ -48,18 +55,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    <br><br>
    <input type="submit" name="submit" value="Submit"> 
 </form>
-
-<?php
-$details = query("SELECT", "*", "users", "randnum = '$randnum' AND name = '$fullname'", "raw", null);
-if($details == "") {
-  $loginErr = "Sorry, your details do not match our records.";
-  echo $loginErr;
-} else {
- $_SESSION["details"] = $details;
- header("Location: http://localhost/mms/questions");
-
-}
-?>
-
 </body>
 </html>

@@ -27,7 +27,6 @@ page:
 
 </div>
 
-<div id="warning" style="display: none; background-color: red">You've already answered<span style="background-color:grey;" id="warningclose">x</span>We do not support answer editing at this time.</div>
 <!--angular js for answer preview (to be further developed...) !-->
 <div ng-app="">
  
